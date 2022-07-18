@@ -10,7 +10,7 @@ export default {
      * @returns {number}
      */ 
     totalNumber: function () {
-        // TODO: Should fail
+        // TODO: Should show an error
         return 'rty';
     }
   }
