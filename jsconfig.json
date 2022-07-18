@@ -5,7 +5,7 @@
         "noImplicitThis": true
     },
     "include": [
-        "src/**/*"
+        "src/mwe.vue"
     ],
     "exclude": [
         "node_modules"
