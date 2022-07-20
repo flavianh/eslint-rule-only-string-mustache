@@ -14,7 +14,7 @@ export default new Vue({
     /**
      * @returns {number}
      */
-    // Objective 2: for all mustaches in the template which display a computed property, capture the return type and output an error below if number
+    // Objective 3: for all mustaches in the template which display a computed property, capture the return type and output an error below if number
     // totalNumber should be underlined in red by eslint.
     totalNumber: function () {
       return 2149;
@@ -23,7 +23,9 @@ export default new Vue({
 });
 </script>
 <template>
-  <!-- Objective 1: capture the term `flag` with eslint and vuejs parser below. Flag should be underlined in red by eslint. -->
+  <!-- Objective 1: Install eslint and trigger the rule [vue mustache interpolation spacing](https://eslint.vuejs.org/rules/mustache-interpolation-spacing.html#vue-mustache-interpolation-spacing) -->
+  <span>{{flag}}</span>
+  <!-- Objective 2: capture the term `flag` with eslint and vuejs parser below. Flag should be underlined in red by eslint. -->
   <span>{{ flag }}</span>
-  <span>Il reste {{ totalNumber }} places.</span>
+  <span>Remains {{ totalNumber }} places.</span>
 </template>
